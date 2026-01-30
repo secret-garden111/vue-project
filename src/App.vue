@@ -1,14 +1,12 @@
 <template>
-  <div class="box"></div>
+  <div>
+    <router-view></router-view>
+  </div>
 </template>
 
 <script setup lang="ts">
-let a = 1
-let b = 10
-if (a === b) {
-  console.log()
-}
+import SvgIcon from '@/components/SvgIcon/index.vue'
+import Login from '@/pages/Login.vue'
 </script>
 
-<style scoped lang="scss">
-</style>
+<style scoped lang="scss"></style>
